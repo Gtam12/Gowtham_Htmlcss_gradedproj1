@@ -68,3 +68,55 @@ div .nav-sub-links {
   padding-top: 0.25em;
   color: white;
 }
+
+.images {
+  border: 2px solid blue;
+  background: url('../Images/Animation/ani1.jpg');
+  animation: slide 10s infinite;
+  min-width: 100%;
+  height: 40em;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+@keyframes slide {
+  20% {
+    background: url('../Images/Animation/ani1.jpg');
+    background-repeat: no-repeat;
+  }
+  40% {
+    background: url('../Images/Animation/ani2.png');
+    background-repeat: no-repeat;
+  }
+  50% {
+    background: url('../Images/Animation/ani3.jpg');
+    background-repeat: no-repeat;
+  }
+  70% {
+    background: url('../Images/Animation/ani4.jpg');
+    background-repeat: no-repeat;
+  }
+  100% {
+    background: url('../Images/Animation/ani5.jpg');
+    background-repeat: no-repeat;
+  }
+}
+
+.section1 {
+  width: 50%;
+  float: left;
+}
+
+.section2 {
+  width: 50%;
+  float: right;
+}
+
+.section2 img {
+  width: 100%;
+}
+
+.form-inputs {
+  width: 30em;
+  margin: 2em;
+}
