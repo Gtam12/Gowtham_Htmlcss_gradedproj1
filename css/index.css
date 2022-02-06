@@ -1,0 +1,70 @@
+.header {
+  background-color: darkgray;
+  text-align: right;
+  height: 5em;
+}
+.header h1 {
+  padding-top: 1em;
+  padding-right: 4em;
+  color: white;
+}
+
+.nav {
+  background-color: grey;
+  height: 2em;
+  overflow: hidden;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 0.5em;
+}
+
+.nav-link > a {
+  text-decoration: none;
+  color: white;
+}
+
+div .nav-sub-links {
+  display: none;
+  list-style: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 0.5em;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.nav-sub-links a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+.nav-sub-links li {
+  height: 2em;
+}
+
+.nav-link:hover .nav-sub-links {
+  display: block;
+  color: aqua;
+}
+
+.nav-link:hover {
+  background-color: black;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  height: 2em;
+}
+
+.footer div {
+  padding-top: 0.25em;
+  color: white;
+}
